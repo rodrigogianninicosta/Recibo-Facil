@@ -1,0 +1,36 @@
+.card-part {
+    width: 45vw;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.carder{
+    background: var(--color-box);
+    box-shadow: 0 0 1em darkgray;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 14vw;
+    height:25vh;
+}
+
+.carder:hover{
+    filter: brightness(95%);
+    cursor: pointer;
+}
+
+.carder:active {
+    filter: opacity(70%);
+}
+
+.card-part span {
+    padding-top: 10%;
+    color: var(--color-text);
+    font-size: 1.0em;
+}
+
+.card-part img {
+    width: 40%;
+}

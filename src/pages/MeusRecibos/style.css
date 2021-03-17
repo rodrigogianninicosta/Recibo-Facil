@@ -1,0 +1,14 @@
+.newer { 
+    height: 15vh;
+}
+
+.newer div{ 
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+}
+
+.newer div label{ 
+    color: var(--color-text);
+    font-weight: 500;
+}

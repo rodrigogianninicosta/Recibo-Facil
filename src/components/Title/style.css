@@ -1,0 +1,15 @@
+.text-part { 
+    text-align: left;
+    margin-bottom: 5%;
+}
+
+.text-part h1{
+    font-size: 1.8em;
+    font-weight:900;
+}
+
+.text-part h2{
+    margin-top: 1%;
+    font-size: 1.2em;
+    font-weight:900;
+}

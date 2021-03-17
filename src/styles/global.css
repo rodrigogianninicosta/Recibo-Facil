@@ -1,0 +1,29 @@
+:root {
+    --color-background: #FFF;
+    --color-text: #6100FF;
+    --color-box: #FBFBFB;
+    --color-input: #EFEFEF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+input,
+textarea,
+button {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+h1 {
+    color: var(--color-text);
+}
+
+.container { 
+    display: flex;
+}

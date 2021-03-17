@@ -1,0 +1,31 @@
+.fix {
+    flex-direction: column;
+}
+
+.field { 
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: auto;
+    margin-bottom: 1%;
+}
+.field input {
+    border-radius: 5px;
+    background: var(--color-input);
+    border: 0;
+    width: 20vw;
+    height:5vh;
+    min-width: 5vh; 
+    text-align: left;
+    padding-left: 10px;
+    margin-bottom: 2%;
+}
+
+.field input:focus {
+    outline: none;
+}
+
+.field label {
+    font-weight: 500;
+    margin-bottom: 2%;
+}

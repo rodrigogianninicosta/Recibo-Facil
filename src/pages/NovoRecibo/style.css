@@ -1,0 +1,63 @@
+.add {
+    width: 50vw;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.content {
+    padding-top: 0%;
+}
+
+.add input { 
+    border-radius: 5px;
+    background: var(--color-input);
+    border: 0;
+    height:5vh;
+    padding-left: 10%;
+    display: flex;
+}
+
+.add input:focus {
+    outline: none;
+}
+
+.add img {
+    width: 5%;
+    margin-top: 2%;
+}
+
+.to {
+    width: 50vw;
+    display: flex;
+    margin-top: 1%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.many { 
+    height: 5vh;
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--color-input);
+    padding-left: 1%;
+    padding-right: 4%;
+}
+
+.to img {
+    width: 5%;
+}
+
+.btn-this {
+    display: flex;
+    width: 100%;
+    height: 7vh;
+    padding-left: 82.5%;
+    margin-top: 5%;   
+}
+
+.btn-this button:active {
+    border: 0px solid var(--color-text);
+}

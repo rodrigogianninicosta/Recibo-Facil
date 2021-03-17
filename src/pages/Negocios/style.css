@@ -1,0 +1,37 @@
+.fax {
+    flex-direction: column;
+    padding-top: 10%;
+}
+
+.item {
+	background: var(--color-box);
+    display: flex;
+    height: 60vh;
+    width: 30vw;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.0em;
+    transition: 0.1s;
+    max-height: 60px;
+    box-shadow: 0 0 0.9em lightgray;
+    opacity: 60%;
+    margin-bottom: 5%;
+}
+
+.item:hover {
+    cursor: pointer;
+    opacity: 100%;
+}
+
+.item:hover label {
+    cursor: pointer;
+}
+
+.item label {
+    margin-left: 3%;
+}
+
+.item img {
+    width: 7%;
+    margin-right: 3%;
+}

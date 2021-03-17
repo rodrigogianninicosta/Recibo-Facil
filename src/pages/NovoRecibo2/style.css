@@ -1,0 +1,12 @@
+.number-two input {
+    width: 35vw;
+    margin-bottom: 1%;
+}
+
+.number-two button {
+    padding-left: 30%;
+}
+
+.number-two button:active {
+    border: 0px solid var(--color-text);
+}

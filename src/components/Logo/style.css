@@ -1,0 +1,26 @@
+.menu-container {
+    min-width: 250px;
+    width: 20vw;
+    height:100vh;
+    padding: 10%;
+}
+
+.structure {
+    width: 100%;
+    margin-left: 30%;
+}
+
+.menu-container h1 {
+    font-size: 2.6em;
+    font-weight:900;
+    transition: 0.2s;
+}
+
+.structure:hover h1 {
+    cursor: pointer;
+    filter: brightness(60%);
+}
+
+.structure:active h1 {
+    filter: opacity(80%);
+}
